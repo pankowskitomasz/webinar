@@ -26,10 +26,47 @@ body, html {
   min-height: 100vh;
 }
 
+/* line 2, ../../sass/partials/_modules.scss */
+.bg-black {
+  background-color: #161616 !important;
+}
+
+/* line 7, ../../sass/partials/_modules.scss */
+.contact-bg {
+  background-attachment: fixed;
+  background-image: url(../img/contact.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 12, ../../sass/partials/_modules.scss */
+.login-form, .register-form {
+  background-attachment: fixed;
+  background-image: url(../img/login.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 17, ../../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 20, ../../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 29, ../../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
   background-attachment: fixed;
-  background-image: url(../img/coming.jpg);
+  background-image: url(../img/error.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +84,7 @@ body, html {
 /* line 31, ../../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: fixed;
-  background-image: url(../img/coming.jpg);
+  background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,30 +104,29 @@ body, html {
 }
 
 /* line 21, ../../sass/partials/_modules_init.scss */
-.opacity-8 {
-  opacity: 0.8;
-}
-
-/* line 26, ../../sass/partials/_modules_init.scss */
 .privacy-container {
   background-color: #333 !important;
   opacity: 0.8;
 }
+/* line 25, ../../sass/partials/_modules_init.scss */
+.privacy-s1 {
+  background-position: center bottom;
+}
 
-/* line 35, ../../sass/partials/_modules_init.scss */
+/* line 31, ../../sass/partials/_modules_init.scss */
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
 }
 
-/* line 41, ../../sass/partials/_modules_init.scss */
+/* line 37, ../../sass/partials/_modules_init.scss */
 .z-index-0 {
   z-index: 0;
 }
-/* line 44, ../../sass/partials/_modules_init.scss */
+/* line 40, ../../sass/partials/_modules_init.scss */
 .z-index-10 {
   z-index: 10;
 }
-/* line 47, ../../sass/partials/_modules_init.scss */
+/* line 43, ../../sass/partials/_modules_init.scss */
 .z-index-100 {
   z-index: 100;
 }

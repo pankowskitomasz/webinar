@@ -17,11 +17,6 @@
         @extend %bg-tmp;
     }
 }
-.opacity{
-    &-8{
-        opacity:0.8;
-    }
-}
 .privacy{
     &-container{
         background-color: $color__container-bg !important;
@@ -29,6 +24,7 @@
     }
     &-s1{
         @extend %bg-tmp;
+        background-position: center bottom;
     }
 }
 .text{
