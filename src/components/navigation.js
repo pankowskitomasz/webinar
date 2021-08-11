@@ -16,10 +16,10 @@ class Navigation extends Component{
             <Navbar bg="transparent" variant="light" expand="md" className="position-absolute px-2 w-100 z-index-100" collapseOnSelect>
                 <Navbar.Brand>
                     <Link to="/" className="font-weight-bold font-logo decoration-none text-green">
-                        <img src="img/navbar_logo.png" alt="logo" className="me-2"/>                        
+                        <img src="img/navbar_logo.png" alt="logo" className="me-2 w-75"/>                        
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle className="border-light"/>
+                <Navbar.Toggle className="bg-primary"/>
                 <Navbar.Collapse>
                     <Nav className="ms-auto text-end px-3">
                         {menuContent}

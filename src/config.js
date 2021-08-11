@@ -12,7 +12,7 @@ import Webinar from "./views/webinar";
 
 const appCfg = {
     routes:[
-        {navItem:true, exact:true, path:"/",name:"Home",view:<Home/>},
+        {navItem:true, exact:true, path:"/",name:"Home",view:<Home backLink={{name:"See now",path:"/webinar"}}/>},
         {navItem:true, exact:true, path:"/webinar",name:"Webinar",view:<Webinar/>},
         {navItem:true, exact:true, path:"/business",name:"Business",view:<Business/>},
         {navItem:true, exact:true, path:"/contact",name:"Contact",view:<Contact/>},

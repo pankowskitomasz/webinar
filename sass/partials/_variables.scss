@@ -1,8 +1,12 @@
+$bg__business-desc-img: "../img/business/business_desc.jpg";
+$bg__business-ext-img: "../img/business/business_ext.jpg";
 $bg__comingsoon-img: "../img/coming.jpg";
 $bg__contact-img: "../img/contact.jpg";
 $bg__error-img: "../img/error.jpg";
+$bg__home-img: "../img/home.jpg";
 $bg__login-img: "../img/login.jpg";
 $bg__privacy-img: "../img/privacy.jpg";
+$bg__webinar-img: "../img/webinar.jpg";
 $bg__classes:
     "error",
     "comingsoon",
@@ -15,6 +19,7 @@ $box__shadow: 2px 2px 5px #333;
 $color__black: #161616;
 $color__container-bg: #333;
 $color__shadow: #000;
+$footer__height: 57px;
 $header__height: 0px;
 $section__min-height: 100vh;
 $text__shadow: 1px 1px 4px $color__shadow;
