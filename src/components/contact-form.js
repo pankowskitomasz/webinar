@@ -127,7 +127,7 @@ class ContactForm extends Component {
             <Container fluid className={"contact-form align-items-center p-0 py-5  d-flex minh-50vh " + this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
                     <Col xs={11} md={6} className="mx-auto p-0 d-flex align-items-center">
-                        <Form className="text-start w-100 border border-primary p-4 rounded bg-black shadow text-primary text-shadow"
+                        <Form className="text-start w-100 border border-primary p-4 rounded bg-black shadow text-primary text-shadow opacity-9"
                             autoComplete="off"
                             method="POST">
                             <div className="border-bottom border-primary mb-4">

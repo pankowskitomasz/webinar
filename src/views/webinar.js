@@ -1,11 +1,11 @@
 import React,{Component} from "react";
-
+import WebinarList from "../components/webinar_list";
 
 class Webinar extends Component{
     render(){
         return(          
-            <main className="minh-100vh">     
-
+            <main className="minh-footer-adj d-flex align-items-center bg-webinar">     
+                <WebinarList/>
             </main>
         );
     }

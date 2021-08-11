@@ -2,6 +2,20 @@
     &-black{
         background-color: $color__black!important;
     }
+    &-home{
+        @include set-background($bg__home-img,0,"center","cover","scroll");
+    }
+    &-webinar{
+        @include set-background($bg__webinar-img,0,"center","cover","fixed");
+    }
+}
+.business{
+    &-desc{
+        @include set-background($bg__business-desc-img,0,"center left","cover","scroll");
+    }
+    &-ext{
+        @include set-background($bg__business-ext-img,0,"center right","cover","scroll");
+    }
 }
 .contact{
     &-bg{
