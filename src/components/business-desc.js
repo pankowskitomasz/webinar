@@ -34,7 +34,7 @@ class BusinessDesc extends Component{
                             {linking}
                         </div>
                     </Col>
-                    <Col xs={12} md={5} className="text-center mx-auto d-flex align-items-center">
+                    <Col xs={9} sm={6} md={5} className="text-center mx-auto d-flex align-items-center">
                         <img alt="about"
                             className="img-fluid w-75 mx-auto"
                             src="img/business/business_desc_img.png"/>
