@@ -6,14 +6,14 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class BusinessExt extends Component{
     render(){
         return(        
-            <Container fluid className={"business-ext p-0 minh-50vh d-flex align-items-start "+this.props.classExt}>
+            <Container fluid className={"business-ext p-0 minh-50vh d-flex "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100">  
                     <Col xs={6} className="text-center px-0 d-flex align-items-start">
                         <img alt="about"
                             className="img-fluid w-75 ms-0"
                             src="img/business/business_ext_img.png"/>
                     </Col>                 
-                    <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-items-center">
+                    <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-self-end">
                         <div className="text-shadow">
                             <h2 className="mb-3 mt-5 text-white">
                                 Our mision
