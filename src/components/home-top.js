@@ -18,12 +18,12 @@ class HomeTop extends Component{
         return(        
             <Container fluid className={"align-items-center d-flex px-0 "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 minh-footer-adj">
-                    <Col xs={9} md={5} lg={6} className="text-dark p-0 d-flex align-items-start float-start">
+                    <Col xs={9} md={7} lg={8} className="text-dark p-0 d-flex align-items-start float-start">
                         <img alt="about"
                             className="img-fluid ms-0 w-75"
                             src="img/home/home-img.png"/>
                     </Col>
-                    <Col xs={12} md={7} lg={6} className="mx-auto p-0 d-flex align-items-center">
+                    <Col xs={12} md={5} lg={4} className="mx-auto p-0 d-flex align-items-center">
                         <div className="p-5 text-lg-end text-center">
                             <h1 className="display-6 text-white fw-bold text-uppercase text-shadow">
                                 Webinar
